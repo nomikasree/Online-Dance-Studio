@@ -1,0 +1,59 @@
+.login-box {
+    /* background-color: #dee3e6; */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #C39BD3;
+    width: 500px;
+  }
+  
+  .container {
+    margin-top: 100px; /* Adjust as needed to center vertically */
+  }
+  .h1 {
+    font-family: 'Courier New';
+    color: black;
+  }
+  .ods{
+    color: #6C3483; /* Text color */
+    font-size: 50px;
+    font-family: 'Courier New';
+    font-weight: bold; /* Make the text bold */
+  }
+ body {
+  background-image: url('../../assets/bgg.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.position-relative {
+    position: relative;
+  }
+  
+  .position-absolute {
+    position: absolute;
+  }
+  
+  .top-50 {
+    top: 50%;
+  }
+  
+  .start-50 {
+    left: 50%;
+  }
+  
+  .translate-middle {
+    transform: translate(-50%, -50%);
+  }
+
+  .bg-image {
+    background-image: url('../../assets/bgg.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 200px; /* Adjust as needed */
+    margin-top: 11px;
+  }
+  
+  
+  
+  
+  

@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+
+    <div class="col-lg-6 text-lg-start">
+        <a class="navbar-brand mx-2" routerLink="/dashboard">Online Dance Studio</a>
+    </div>
+    <div class="col-lg-3 text-lg-start"></div>
+    <div class="col-lg-3">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/instructors">Instructors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/login">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+<div class="container mt-5 bg-image">
+    <h2>Instructors</h2>
+    <table class="table mt-5">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Specialization</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let instructor of instructors">
+          <td>{{ instructor.name }}</td>
+          <td>{{ instructor.specialization }}</td>
+          <td>{{ instructor.email }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

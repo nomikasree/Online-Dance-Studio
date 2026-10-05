@@ -1,0 +1,46 @@
+.navbar-custom {
+    background-color: #CCCCFF ; /* Pink color */
+}
+
+.navbar-brand {
+    color: #6C3483; /* Text color */
+    font-size: 50px;
+    font-family: 'Courier New';
+    font-weight: bold; /* Make the text bold */
+}
+
+.navbar-custom .nav-link:hover {
+    color: blue; /* Text color on hover */
+}
+.nav-link{
+    color: #212F3D; /* Text color */
+    font-size: 25px;
+}
+/* Add border to the table and its cells */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Add styling for table header */
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add hover effect to table rows */
+  .table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  .bg-image {
+    background-image: url('../../assets/bgg.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px; /* Add padding to ensure content is visible */
+}
+  

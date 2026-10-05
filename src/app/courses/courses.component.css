@@ -1,0 +1,18 @@
+.navbar-custom {
+    background-color: #CCCCFF ; /* Pink color */
+}
+
+.navbar-brand {
+    color: #6C3483; /* Text color */
+    font-size: 50px;
+    font-family: 'Courier New';
+    font-weight: bold; /* Make the text bold */
+}
+
+.navbar-custom .nav-link:hover {
+    color: blue; /* Text color on hover */
+}
+.nav-link{
+    color: #212F3D; /* Text color */
+    font-size: 25px;
+}
